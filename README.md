@@ -1,12 +1,32 @@
-# DASI_Instructif
-BACKEND of Instruct'IF App
+# INSTRUCT'IF
 
-Project Overview
-Name: INSTRUCT'IF
-Description: INSTRUCT'IF is an educational platform designed to facilitate academic support for middle and high school students. It connects students seeking academic help with qualified tutors, offering a quick and intuitive way to access needed assistance.
-Features
-User Registration and Login: Allows both students and tutors to easily create accounts and log in.
-Support Request: Enables students to request help across various subjects.
-Automatic Matching: The platform automatically matches students with the most suitable tutor based on their needs.
-Video Conferencing Integration: Tutoring sessions include a video conferencing feature for real-time interaction.
-Feedback and Reports: After each session, students can evaluate the support received, and tutors provide a session summary.
+## À propos
+INSTRUCT'IF est une plateforme éducative innovante conçue pour faciliter l'aide aux devoirs pour les élèves de collège et lycée. Elle permet de mettre en relation des élèves en quête de soutien académique avec des intervenants qualifiés, offrant ainsi un accès rapide et intuitif à l'aide nécessaire.
+
+## Fonctionnalités
+- **Inscription et Connexion :** Les élèves et les intervenants peuvent facilement créer leur compte et se connecter à la plateforme.
+- **Demande de Soutien :** Les élèves peuvent demander du soutien dans une variété de matières.
+- **Matching Automatique :** La plateforme sélectionne automatiquement l'intervenant le plus adapté en fonction du besoin de l'élève.
+- **Visioconférence :** Les sessions de tutorat se font via une intégration de visioconférence, permettant des interactions en temps réel.
+- **Évaluation et Bilan :** À la fin de chaque session, les élèves évaluent la qualité du soutien reçu, et les intervenants rédigent un bilan.
+- **Statistiques :** L'intervenant peut également accéder à un tableau de bord où il retrouvera des statistiques intéréssantes sur la plateforme.
+
+## Technologies Utilisées
+- **Frontend :** HTML, CSS, JavaScript
+- **Backend :** Java avec Spring Framework
+- **Base de Données :** PostgreSQL
+- **APIs :** EducNetApi pour la vérification des établissements, GeoNetApi pour la localisation
+
+## Comment ça marche
+1. **Inscription :** Les utilisateurs s'inscrivent en tant qu'élève ou intervenant.
+2. **Demande de Soutien :** Les élèves soumettent leur demande de soutien en spécifiant la matière et le problème rencontré.
+3. **Matching et Session :** Un intervenant est automatiquement assigné et une session de visioconférence est programmée.
+4. **Évaluation et Bilan :** Après la session, l'élève évalue le soutien et l'intervenant fournit un bilan.
+5. **Statistiques :** Les statistiques sont regroupées dans une fenêtre Tableau de Bord.
+
+## Licence
+Ce projet est sous licence [MIT](LICENSE). Voir le fichier `LICENSE` pour plus de détails.
+
+## Auteurs et Remerciements
+- Saad ElGhissassi
+- Simon Perret
