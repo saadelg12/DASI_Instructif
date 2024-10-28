@@ -54,7 +54,7 @@ Exemple d'utilisation:
  */
 public class GeoNetApi {
 
-    private static final String MA_CLE_GOOGLE_API = "AIzaSyDMqXyR2llzWs1F_K147AwbfA89XouummE"; // (DASI-0x04)
+    private static final String MA_CLE_GOOGLE_API = "YOUR_GOOGLE_API_KEY"; // (DASI-0x04)
 
     private static final GeoApiContext MON_CONTEXTE_GEOAPI = new GeoApiContext.Builder().apiKey(MA_CLE_GOOGLE_API).build();
 
